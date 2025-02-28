@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-1140 {
+    width: 1140px;
+    margin: auto;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.bgcolor {
+    background-color: black;
+    width: 100%;
+
+
+}
+.header{
+    position: absolute;
+}
+.header .logo i {
+    color: oklab(0.648868 -0.124621 0.0402822 / 0.804943);
+    font-size: 25px;
+
+}
+
+.header .logo h1 {
+    color: white;
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.header .navbar ul li {
+    padding: 10px;
+    position: relative;
+
+}
+
+.header .navbar ul li a {
+    color: rgba(255, 255, 255, 0.505);
+
+}
+
+.header .navbar ul li a:hover {
+    color: white;
+}
+
+.header .navbar ul ul {
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 5px;
+    width: 140px;
+    position: absolute;
+    left: 0;
+    top: 34px;
+    display: none;
+
+}
+
+.header .navbar ul ul ul {
+    top: 0;
+    left: -143px;
+    width: 142px;
+}
+
+.header .navbar ul li:hover> ul {
+    display: block;
+}
+
+
+.header .social-media ul li {
+    padding: 5px;
+
+}
+
+.header .social-media ul li a {
+    color: white;
+}
+.hero-bgcolor{
+    background-color: PINK;
+    width: 100%;
+    height: 500px;
+}
+.hero-info{
+    padding: 100px;
+}
+.hero-bgcolor{
+  position: relative;
+}

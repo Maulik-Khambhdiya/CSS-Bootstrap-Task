@@ -1,0 +1,464 @@
+@media (max-width:1200px) {
+    .w-1140 {
+        width: 1140px;
+
+    }
+
+    .hero-info .info-left h1 {
+        font-size: 45px;
+    }
+
+        .hero-info .info-left p {
+       
+            font-size: 20px;
+     
+        }
+
+        .hero-info .info-left {
+            padding: 30px;
+        }
+
+        .service-item {
+            width: calc(50% - 30px);
+    
+        }
+
+        .bgimg .w-1140 {
+            justify-content: center;
+        }
+    
+        .action-info {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .action-btn {
+            text-align: center;
+            width: 100%;
+        }
+    
+        
+ 
+
+
+}
+
+
+@media (min-width:993px) and (max-width:1140px) {
+    .w-1140 {
+        width: 960px;
+
+    }
+
+}
+
+
+@media (max-width:992px) {
+    .w-1140 {
+        width: 960px;
+
+
+    }
+
+    .header-navbar {
+        display: none;
+    }
+
+
+    .hero-info .info-right {
+        width: 100%;
+
+    }
+
+    .hero-info .info-left {
+        width: 100%;
+    }
+
+    .about-us .about-left {
+        width: 100%;
+    }
+
+    .about-us .about-right {
+        width: 100%;
+    }
+
+    .why-us .left-part {
+        width: 100%;
+    }
+
+    .why-us .right-part {
+        width: 100%;
+    }
+
+    .skill .skill-left {
+        width: 100%;
+    }
+
+    .skill .skill-right {
+        width: 100%;
+    }
+
+    .service-item {
+        width: calc(50% - 30px);
+
+    }
+
+    .bgimg .w-1140 {
+        justify-content: center;
+    }
+
+    .action-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .action-btn {
+        text-align: center;
+        width: 100%;
+    }
+
+    .filter-img img {
+        width: calc(50% - 20px);
+
+    }
+
+    .team-member {
+        width: calc(100% - 20px);
+    }
+
+    .plans {
+        width: calc(100% - 20px);
+    }
+
+    .contact-detail .detail-left {
+        width: 100%;
+    }
+
+    .contact-detail .detail-right {
+        width: 100%;
+    }
+
+    .flex .name {
+        width: 100%;
+    }
+
+    .flex .email {
+        width: 100%;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .footer-address {
+        width: calc(40% - 30px);
+    }
+
+    .links {
+        width: calc(30% - 30px);
+    }
+
+    .our-services {
+        width: calc(30% - 30px);
+    }
+
+    .follow-us {
+        width: calc(100% - 30px);
+    }
+
+
+
+
+
+
+}
+
+@media (min-width:769px) and (max-width:960px) {
+    .w-1140 {
+        width: 720px;
+
+    }
+
+
+}
+
+
+@media (max-width:768px) {
+    .w-1140 {
+        width: 720px;
+
+    }
+
+    .hero-info .info-right {
+        width: 100%;
+    }
+
+    .hero-info .info-left {
+        width: 100%;
+    }
+
+    .about-us .about-left {
+        width: 100%;
+    }
+
+    .about-us .about-right {
+        width: 100%;
+    }
+
+
+    .why-us .left-part {
+        width: 100%;
+    }
+
+    .why-us .right-part {
+        width: 100%;
+    }
+
+    .skill .skill-left {
+        width: 100%;
+    }
+
+    .skill .skill-right {
+        width: 100%;
+    }
+
+    .service-item {
+        width: 100%;
+
+    }
+
+    .bgimg .w-1140 {
+        justify-content: center;
+    }
+
+    .action-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .action-btn {
+        text-align: center;
+        width: 100%;
+    }
+
+    .filter-img img {
+        width: calc(50% - 20px);
+    }
+
+    .team-member {
+        width: calc(100% - 20px);
+    }
+
+    .plans {
+        width: calc(100% - 20px);
+    }
+    .questions .question-1 {
+        margin: 15px 0;
+    
+    }
+
+    .contact-detail .detail-left {
+        width: 100%;
+    }
+
+    .contact-detail .detail-right {
+        width: 100%;
+    }
+
+    .flex .name {
+        width: 100%;
+    }
+
+    .flex .email {
+        width: 100%;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+
+    .footer-address {
+        width: calc(40% - 30px);
+      
+    }
+
+    .links {
+        width: calc(30% - 30px);
+        
+      
+    }
+    .links ul li{
+        font-size: 15px;
+    }
+    .our-services ul li{
+        font-size: 15px;
+    }
+
+    .our-services {
+        width: calc(30% - 30px);
+       
+    }
+
+
+
+    .follow-us {
+        width: 100%;
+      
+    }
+
+ 
+
+
+
+
+
+
+
+
+
+
+    }
+
+    @media (min-width:577px) and (max-width:720px) {
+        .w-1140 {
+            width: 540px;
+
+        }
+
+
+    }
+
+    @media (max-width:576px) {
+        .w-1140 {
+            width: 100%;
+
+        }
+
+        .hero-info .info-right {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .hero-info .info-left {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .about-us .about-left {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .about-us .about-right {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .why-us .left-part {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .why-us .right-part {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .skill .skill-left {
+            width: calc(100% - 30px);
+            margin:15px;
+        }
+
+        .skill .skill-right {
+            width: calc(100% - 30px);
+            margin:15px;
+        }
+
+        .service-item {
+            width: calc(100% - 30px);
+            margin: 15px;
+
+        }
+
+        .bgimg .w-1140 {
+            justify-content: center;
+        }
+
+        .action-info {
+            width: 100%;
+            text-align: center;
+        }
+
+        .action-btn {
+            text-align: center;
+            width: 100%;
+        }
+
+        .filter-img img {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .team-member {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .plans {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .contact-detail .detail-left {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .contact-detail .detail-right {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .flex .name {
+            width: 100%;
+        }
+
+        .flex .email {
+            width: 100%;
+        }
+
+        .address {
+            width: 100%;
+        }
+
+
+        .footer-address {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .links {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .our-services {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+        .follow-us {
+            width: calc(100% - 30px);
+            margin: 15px;
+        }
+
+    }
+
+/* 
+    @media (max-width:280px) {
+        .w-1140{
+            width: 100%};
+        
+    } */
+  

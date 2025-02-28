@@ -1,0 +1,273 @@
+@media (max-width:1200px) {
+    .w-1140 {
+        width: 1140px;
+    }
+
+    /* .header .header-navbar ul{
+       display: none;
+        
+    }
+
+    .clients .client-logo {
+        width: 24.66%;
+    }
+
+    .clients .client-logo img {
+        width: 70%;
+    }
+
+    .about-us .about-left {
+        width: 100%;
+        margin: 48px 0;
+    }
+
+    .about-us .about-right {
+        width: calc(1140px - 30px);
+        margin: 15px;
+    }
+
+    .about-us .about-left h2 {
+        font-size: 40px;
+
+    }
+
+    .about-us .about-left p {
+        font-size: 20px;
+    }
+
+    .about-left button {
+        padding: 15px 28px;
+    }
+
+    .card-1 p {
+
+        font-size: 20px;
+    }
+
+    .card-2 p {
+
+        font-size: 21px;
+    }
+
+    .service-card .icon-detail p {
+        font-size: 20px;
+
+    }
+
+    .feature-left h1 {
+        font-size: 37px;
+    }
+
+    .feature-left p {
+
+        font-size: 21px;
+
+    }
+
+    .feature-right .feature-img1 img {
+        bottom: 92px;
+    }
+
+    .feature-bottom {
+        margin: 90px 0 0 0;
+    }
+
+    .feature-bottom-right p {
+
+        font-size: 20px;
+
+    }
+
+    .feature-bottom-right ul li {
+        font-size: 20px;
+
+    }
+
+    .feature-bottom-right {
+
+        padding: 50px;
+    }
+
+    .faq-left h1 span {
+
+        font-size: 46px;
+    }
+
+    .faq-left {
+        width: 35%;
+    }
+
+    .faq-right {
+        width: 65%;
+    }
+
+    .faq-left p {
+        font-size: 19px;
+
+        margin-top: 17px;
+    }
+
+    .question h3 .num {
+
+        font-size: 25px;
+    }
+
+    .question h3 {
+        font-size: 21px;
+    }
+
+    .team .member-info {
+        width: 33.33%;
+        padding: 35px;
+    }
+
+    .testimonial-left p {
+        font-size: 20px;
+        margin-top: 10px;
+        padding: 0 35px 0 0;
+    }
+
+    .testimonial-left h1 {
+        font-size: 35px;
+        margin-top: 90px;
+    }
+
+    .tm-client span {
+
+        font-size: 21px;
+    }
+
+    .recent-post .post-box {
+
+        width: calc(50% - 30px);
+
+    } */
+
+
+
+
+
+}
+
+@media (min-width:993px)and(max-width:1140px) {
+    .w-1140 {
+        width: 960px;
+    }
+
+
+}
+
+
+@media (max-width:992px) {
+    .w-1140 {
+        width: 960px;
+
+    }
+
+}
+
+/* 
+.clients .client-logo {
+    width: 24.66%;
+}
+
+.clients .client-logo img {
+    width: 70%;
+}
+
+.about-us .about-left {
+    width: 100%;
+    margin: 140px 0;
+    padding: 0 12px;
+}
+
+.about-us .about-right {
+    width: 100%;
+}
+
+.status-row .row-info {
+    width: calc(50% - 100px);
+    margin: 50px;
+}
+
+.service-card {
+    width: calc(100% - 30px);
+    margin: 15px;
+}
+
+.service-card .icon-detail p {
+    font-size: 20px;
+
+}
+
+.service-card .icon-detail h3 {
+    font-size: 30px;
+
+}
+
+.service-card .service-icon i {
+    font-size: 65px;
+
+}
+
+
+
+
+
+
+@media (min-width:769px)and(max-width:960px) {
+    .w-1140 {
+        width: 720px;
+    }
+
+
+}
+
+
+@media (max-width:768px) {
+    .w-1140 {
+        width: 720px;
+    }
+
+    .clients .client-logo {
+        width: 24.66%;
+    }
+
+    .clients .client-logo img {
+        width: 70%;
+    }
+
+    .about-us .about-left {
+        width: 100%;
+        margin: 48px 0;
+    }
+
+    .about-us .about-right {
+        width: 100%;
+    }
+
+    .status-row .row-info {
+        width: calc(50% - 30px);
+        margin: 15px;
+    } */
+
+
+
+
+@media (min-width:577px)and(max-width:720px) {
+    .w-1140 {
+        width: 540px;
+    }
+
+
+}
+
+
+@media (max-width:576px) {
+    .w-1140 {
+        width: 100%;
+    }
+
+
+
+}

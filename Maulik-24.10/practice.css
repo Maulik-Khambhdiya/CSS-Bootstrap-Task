@@ -1,0 +1,269 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none !important;
+}
+
+
+.bg-color{
+    background-color: #4e4feb;
+}
+
+.navbar-1 span{
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.navbar-1 i{
+color:rgb(39, 225, 193);
+margin-right: 10px;
+}
+
+.navbar-1 ul{
+    margin: 0;
+   
+}
+
+.navbar-1 ul li a{
+padding: 10px;
+text-decoration: none !important;
+color: white ;
+font-weight: 500;
+font-size: 15px;
+}
+
+.navbar-1 ul li a:hover{
+    color:rgb(39, 225, 193) ;
+}
+
+.navbar-2-right .country img{
+    width: 5%;
+    margin-right: 3px;
+}
+
+.navbar-2-right{
+    column-gap: 20px;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.navbar-2{
+    justify-content: baseline;
+}
+.navbar-2-right .cart h6{
+    box-shadow: rgb(237, 237, 253) -4px 4px 0px 0px;
+    border: 1px solid rgba(128, 128, 128, 0.253);
+    padding: 13px 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.navbar-2-right .cart h6:hover{
+    box-shadow: rgb(201, 201, 235) 0px 0px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+.navbar-2-right .nav-btn button{
+    background-color: rgb(78, 79, 235);
+    font-weight: 500;
+    padding: 10px 15px;
+    font-family: Inter, sans-serif;
+    border-radius: 5px !important;
+    font-weight: 600;
+    font-size: 15px;
+}
+.navbar-2-right .nav-btn button:hover{
+    background-color:rgb(14, 41, 84);
+}
+.navbar-2-right .country i{
+    margin-left: 5px;
+}
+
+.navbar-2-right .country{
+    width: 11%;
+}
+.navbar-2-right .country img{
+    width: 25%;
+}
+.navbar-2-right .country span{
+    font-family: Inter, sans-serif;
+    color: rgb(14, 41, 84);
+    font-weight: 600;
+}
+
+.navbar-2-right .contact span{
+    font-family: Inter, sans-serif;
+    color: rgb(14, 41, 84);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar-2-right .contact i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.navbar-3 ul{
+    padding: 0;
+    margin: 0;
+}
+.navbar-3 ul li a{
+    text-decoration: none !important;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    color: rgb(14, 41, 84);
+    font-weight: 600;
+    
+}
+
+.navbar-3 ul li{
+    padding: 15px;
+    position: relative;
+
+}
+
+.navbar-3 ul li a:hover{
+    color: #4e4feb;
+}
+
+.navbar-3 ul li a:hover i{
+    transform: rotate(180deg);
+}
+
+.navbar-3 ul ul{
+    position: absolute;
+    width: 200px;
+    display: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.navbar-3 ul li:hover ul{
+    display: block;
+}
+
+.navbar-3 .col-4 a{
+    font-family: Inter, sans-serif;
+    color: rgb(14, 41, 84);
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none !important;
+}
+
+.navbar-3 .col-4 a:hover{
+    color: blue;
+}
+.navbar-3 .col-4{
+    text-align: end;
+}
+/* main start */
+.hero{
+    margin-top: 100px;
+}
+
+.hero button{
+    background-color: rgb(78, 79, 235);
+    font-weight: 500;
+    padding: 13px 20px;
+    font-family: Inter, sans-serif;
+    border-radius: 5px !important;
+    font-weight: 600;
+    font-size: 15px;
+}
+.hero button:hover{
+    background-color:rgb(14, 41, 84);
+}
+
+
+.hero h6{
+    box-shadow: rgb(237, 237, 253) -4px 4px 0px 0px;
+    border: 1px solid rgba(128, 128, 128, 0.253);
+    padding: 13px 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.hero h6:hover{
+    box-shadow: rgb(201, 201, 235) 0px 0px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+.hero span{
+    color:  rgb(45, 80, 135);
+    font-size: 20px;
+    font-weight: 700;
+}
+.hero h1 {
+    color: rgb(14, 41, 84);
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.hero h1 span{
+    color: rgb(78, 79, 235);
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+.hero p{
+    color: rgb(45, 80, 135);
+    font-family: Inter, sans-serif;
+}
+.view {
+    margin-top: 15px;
+}
+.view span{
+    color: rgb(14, 41, 84);
+    font-weight: 800;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+
+.view p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+}
+
+/* client start */
+.client{
+    margin-top: 100px;
+}
+.client h1{
+    color: rgb(14, 41, 84);
+    font-family: Poppins, sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.client span{
+    color: rgb(78, 79, 235);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.client p{
+    color: rgb(45, 80, 135);
+    font-family: Inter, sans-serif;
+}
+
+.client button{
+    background-color: rgb(78, 79, 235);
+    font-weight: 500;
+    padding: 10px 20px;
+    font-family: Inter, sans-serif;
+    border-radius: 5px !important;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.client button:hover{
+    background-color:rgb(14, 41, 84);
+}

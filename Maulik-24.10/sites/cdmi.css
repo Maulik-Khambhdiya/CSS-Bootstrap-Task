@@ -1,0 +1,677 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Start Header 1 */
+.head {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 48, 110);
+    line-height: 60px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    font-size: 14px;
+}
+
+.head a i {
+    color: white;
+}
+
+.head .mail {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.head .vr {
+    margin-left: 120px;
+    margin-right: 50px;
+
+}
+
+.head .btn select {
+
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(0, 48, 113);
+    border-radius: 4px;
+    color: white;
+    padding-right: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+
+}
+
+.head .fb i {
+
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 17px;
+}
+
+/*End Header 1 */
+
+/* Start Header 2 */
+.logo {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    /* line-height: 50px; */  
+    margin-bottom: 40px;
+}
+
+.logo img {
+    height: 90px;
+    width: 270px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 180px;
+    float: left;
+}
+
+ul li {
+
+    float: left;
+    font-family: serif;
+    font-weight: 800;
+    font-size: 14px;
+    position: relative;
+
+
+}
+
+ul ul li {
+    float: none;
+
+}
+
+ul li a:hover {
+    color: #ffbc06;
+}
+
+ul li a {
+    background-color: white;
+    display: block;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 77px;
+    color: #2f2e48;
+}
+
+ul ul li {
+    float: none;
+
+}
+
+ul ul li a:hover {
+    color: #000;
+}
+
+ul ul li a {
+    width: 145px;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+/* End Header 2 */
+
+/* Cards Details Start */
+.cr {
+    text-align: center;
+}
+
+.cr span {
+    font-weight: 200;
+    font-size: 15px;
+
+}
+
+.cr h1 {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #000000d5;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w1140 {
+    width: 1140px;
+    margin: auto;
+}
+
+.w33 {
+    width: calc(33.33% - 20px);
+    box-shadow: 1px 1px 4px #000;
+    border-radius: 15px;
+    overflow: hidden;
+    float: left;
+    margin: 10px;
+}
+
+.cardmain .w33 .cardimg img {
+    width: 100%;
+    display: block;
+}
+
+.cardmain .w33 .title {
+    margin: 15px;
+    font-variant: inherit;
+    font-weight: 500;
+}
+
+
+.cardmain .w33 .rating button {
+    background-color: rgb(4, 35, 107);
+    margin: 10px;
+    border: 0px;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 130px;
+
+
+}
+
+.cardmain .w33 .rating i {
+    color: rgb(255, 179, 0);
+}
+
+.cardmain .w33 .rating {
+    margin-left: 10px;
+}
+
+.space {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.space button {
+    margin: 30px;
+    padding: 12px 27px;
+    font-size: 20px;
+    background-color: #ffbc06;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 130px;
+    border: 0;
+}
+
+/* Cards Details End */
+
+/* Banner start */
+.banner {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.banner .info {
+    float: left;
+    padding: 8%;
+    box-shadow: 0 0 8px rgb(0 0 0 / 50%);
+    border-radius: 0 240px 240px 0;
+    margin-right: -50px;
+    background-color: #fff;
+
+
+}
+
+.banner .aak {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+
+}
+
+.banner .post {
+    width: 40%;
+    float: right;
+}
+
+.banner .post img {
+    margin-top: 75px;
+    width: 100%;
+}
+
+.banner .info h4 {
+    margin: 10px 0;
+}
+
+.banner p {
+    color: grey;
+    font-size: 18px;
+}
+
+.banner button {
+    background-color: #ffbc06;
+    border: 0;
+    color: #fff;
+    padding: 18px 45px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 18px;
+
+}
+
+/* Banner end */
+
+
+/* Poster start */
+
+.bg {
+    width: 100%;
+    background-image: url(img/counter_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    position: relative;
+
+}
+
+.BLUE {
+    background-color: rgb(0 51 102 / 64%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bg .row {
+    width: 1140px;
+    margin: auto;
+
+}
+
+.w-25 {
+    width: 100%;
+    margin-top: 50px;
+    color: white;
+    z-index: 999;
+    position: relative;
+}
+
+.w-25 p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 10px;
+
+
+}
+
+.bg .row .icon1 {
+
+    background-image: url(img/counter-icon.png);
+    width: 60px;
+    height: 60px;
+
+}
+
+.bg .row .icon2 {
+
+    background-image: url(img/counter-icon.png);
+    width: 60px;
+    height: 60px;
+    background-position-y: -68px;
+}
+
+.bg .row .icon3 {
+
+    background-image: url(img/counter-icon.png);
+    width: 60px;
+    height: 60px;
+    background-position-y: -138px;
+}
+
+.bg .row .icon4 {
+
+    background-image: url(img/counter-icon.png);
+    width: 60px;
+    height: 60px;
+    background-position-y: -205px;
+}
+
+.w-25 .i1 {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.w-25 .i1 .icon1 {
+    margin: auto;
+}
+
+.w-25 .i2 {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+.w-25 .i2 .icon2 {
+    margin: auto;
+}
+
+.w-25 .i3 {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+.w-25 .i3 .icon3 {
+    margin: auto;
+}
+
+.w-25 .i4 {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+.w-25 .i4 .icon4 {
+    margin: auto;
+}
+
+/* Poster end */
+
+/* ALUMNI start */
+.ak {
+    width: 100%;
+  
+
+}
+
+.ak .reply {
+    width: 50%;
+    float: left;
+    padding: 60px;
+}
+
+.ak .reply span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+}
+
+.ak .reply h3 {
+    font-size: 32px;
+    margin-top: 12px;
+    margin-bottom: 100px;
+
+}
+
+.ak .reply p {
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.ak .reply .pc img {
+    width: 20%;
+    border-radius: 100%;
+    margin: 15px;
+    float: left;
+}
+
+.ak .reply .pc h4 {
+    font-size: 20px;
+    color: rgb(14, 14, 117);
+
+}
+
+.ak .reply .pc h5 {
+    font-size: 14px;
+    color: rgb(204, 190, 0);
+    float: left;
+    font-weight: 300;
+
+}
+
+.ak .pic {
+    width: 50%;
+    float: left;
+    background-image: url(https://www.cdmi.in/assets/front/images/happy-students.webp);
+    background-size: cover;
+}
+
+.ak .pic img {
+    width: 100%;
+    display: block;
+
+}
+
+/* ALUMNI end */
+
+/* Creative Portion Start */
+
+.cp{
+    width: 100%;
+    display: inline-block;
+    margin-top: 65px;
+    
+    
+}
+
+.cp .contain{
+    width: 1140px;
+    margin: auto;
+}
+.cp .contain .row1{
+    text-align: center;
+    
+}
+
+.cp .contain .row2{
+display: flex;
+flex-wrap: wrap;
+}
+
+.cp .contain .row2 .logo1{
+
+width: calc(33.33% - 30px);
+text-align: center;
+margin: 15px;
+padding: 55px;
+box-shadow: 0 0 1px black;
+border-radius: 5px;
+
+}
+
+.cp .contain .row2 .logo1 .L1{
+ background-image: url(img/why-choose.png);
+ background-color: rgb(227, 15, 149);
+ width: 100px;
+ height: 100px;
+ border-radius: 100%;
+ margin: auto;
+
+}
+.cp .contain .row2 .logo1 .L2{
+    background-image: url(img/why-choose.png);
+    background-color:#FFBC06;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+    background-position: 0 -100px;
+   
+   }
+   .cp .contain .row2 .logo1 .L3{
+    background-image: url(img/why-choose.png);
+    background-color: #B3D369;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+    background-position: 0 -200px;
+   
+   }
+
+   .cp .contain .row2 .logo1 .L4{
+    background-image: url(img/why-choose.png);
+    background-color: #554DA7;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+    background-position: 0 -300px;
+   
+   }
+
+   .cp .contain .row2 .logo1 .L5{
+    background-image: url(img/why-choose.png);
+    background-color: #4382FF;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+    background-position: 0 -400px;
+   
+   }
+
+   .cp .contain .row2 .logo1 .L6{
+    background-image: url(img/why-choose.png);
+    background-color: #F94FA4;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+    background-position: 0 -500px;
+   
+   }
+      
+.cp .contain .row2 .logo1 .Li-1 h4{
+    font-size: 18px;
+    color: #292b2c;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    
+}
+.logo1 .Li-1 p{
+    font-size: 20px;
+    color: grey;
+    font-weight: 500;
+
+}
+
+/* Creative Portion End */
+
+/* Placement portion Start */
+.place{
+    width: 100%;
+    margin-top: 100px;
+}
+.place .contain1{
+    width: 1140px;
+    margin: auto;
+}
+.place .contain1 .row11{
+    text-align: center;
+
+}
+.place .contain1 .row11 span{
+    font-size: 18px;
+}
+.place .contain1 .row11 h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.place .contain1 .row22{
+    
+ display: flex;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+  
+}
+
+
+/* Placement portion End */
+
+/*Demanded Courses Start*/
+
+.DC .contain{
+    width: 1140px;
+    margin: auto;
+
+}
+.DC .contain h4{
+    font-family:'Rubik', sans-serif ;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+.DC .contain .course{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+}
+
+.DC .contain .course a{
+    color:grey;
+    box-shadow: 0 0 3px black;
+    background-color: white;
+    margin: 3px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-transform: capitalize;
+
+}
+
+/* Demanded Courses End  */
+
+/* Footer Start */
+
+
+
+
+
+/* Footer End */

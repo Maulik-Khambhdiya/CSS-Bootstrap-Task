@@ -1,0 +1,18 @@
+.vs{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+}
+
+.icon i{
+    font-size: 35px;
+}
+
+.vs:hover .icon{
+    display: none;
+
+}
