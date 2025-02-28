@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+ul li{
+float: left;
+
+}
+ul ul li{
+    float: none;
+}
+ul li a{
+    width: 100px;
+    height: 40px;
+  padding: 5px;
+    background-color: blue;
+    color: chartreuse;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 40px;
+    display: block;
+}
+ul ul li a{
+background-color: pink;
+color: black;
+font-size: 12px;
+}
+ul ul{
+    display: none;
+}
+
+ul li:hover ul{
+    display: block;
+}

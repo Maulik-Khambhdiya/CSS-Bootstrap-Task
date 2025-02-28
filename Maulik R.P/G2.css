@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.blue {
+    width: 100%;
+    height: 55px;
+    background-color: rgb(27,27, 98);
+}
+.blue .w3{
+    color: white;
+    font-size: 14px;
+    line-height: 55px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+ul li{
+    float: left;
+}
+ul li i{
+    margin-right: 5px;
+    margin-left: 20px;
+}
+ul ul li{
+    margin-left: 120px;
+    margin-right: 20px;
+    font-size: 14px;
+    
+}
+ul ul li select{
+    margin-left: -85px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(27, 27, 98);
+    font-size: 14px;
+    color: white;
+}             
